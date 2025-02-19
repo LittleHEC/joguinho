@@ -15,7 +15,7 @@
 .tioze {
     position: absolute;
     bottom: 0;
-    width: 50px;
+    width: 42px;
     animation: tioze-animation 2s infinite linear;
 }
 .marcos {
