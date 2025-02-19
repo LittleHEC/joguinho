@@ -44,7 +44,7 @@ const loop = setInterval(() => {
 document.addEventListener('keydown', jump);
 
 setTimeout(function() {
-    document.querySelector('#imagem img').src = './img/Game Over.pixil';
+    document.querySelector('#imagem img').src = './img/game_over.pixil';
     document.querySelector('#imagem img').classList.add('escondido'); /* Esconde o GIF */
     setTimeout(function() {
       document.querySelector('#imagem img').classList.remove('escondido'); /* Mostra o PNG */
