@@ -42,10 +42,7 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
-
-setTimeout(function() {
-    document.querySelector('#imagem img').src = './img/game_over.pixil';
-    document.querySelector('#imagem img').classList.add('escondido'); /* Esconde o GIF */
+document.getElementById("botaum").addEventListener('touchstart', jump);
     setTimeout(function() {
       document.querySelector('#imagem img').classList.remove('escondido'); /* Mostra o PNG */
     }, 500); /* Tempo de transição do CSS */
