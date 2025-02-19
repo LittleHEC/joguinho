@@ -22,7 +22,7 @@
     position: absolute;
     bottom: 0;
     width: 7%;
-    left: 13%;
+    left: 65px;
 }
 .jump {
     animation: jump 750ms ease-out;
