@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 80%;
+    height:500px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.tioze {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: tioze-animation 2s infinite linear;
+}
+.marcos {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    left: 65px;
+}
+.jump {
+    animation: jump 750ms ease-out;
+}
+#meteoro {
+    animation: none;
+}
+#meteoro:active {
+    animation: none;
+}
+@keyframes tioze-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+@keyframes jump {
+
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 230px;
+    }
+    100% {
+        bottom: 0;
+    }
+
+}
+
+.imagem img {
+    transition: opacity 1s ease ease-in-out;
+}
+
+.imagem img.escondido {
+    opacity: 0; /* Esconde a imagem */
+  }
