@@ -43,3 +43,4 @@ const loop = setInterval(() => {
 
 document.addEventListener('keydown', jump);
 document.getElementById("botaum").addEventListener('touchstart', jump);
+document.getElementById("botaum").addEventListener('click', jump);
