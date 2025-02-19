@@ -33,6 +33,15 @@
 #meteoro:active {
     animation: none;
 }
+#botaum {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 50px auto;
+    cursor: pointer;
+}
 @keyframes tioze-animation {
     from {
         right: -80px;
