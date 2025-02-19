@@ -43,7 +43,3 @@ const loop = setInterval(() => {
 
 document.addEventListener('keydown', jump);
 document.getElementById("botaum").addEventListener('touchstart', jump);
-    setTimeout(function() {
-      document.querySelector('#imagem img').classList.remove('escondido'); /* Mostra o PNG */
-    }, 500); /* Tempo de transição do CSS */
-  }, 1000); /* Tempo em milissegundos antes da troca (5 segundos neste exemplo) */
