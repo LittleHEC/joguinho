@@ -15,13 +15,13 @@
 .tioze {
     position: absolute;
     bottom: 0;
-    width: 42px;
+    width: 7%;
     animation: tioze-animation 2s infinite linear;
 }
 .marcos {
     position: absolute;
     bottom: 0;
-    width: 50px;
+    width: 7%;
     left: 65px;
 }
 .jump {
